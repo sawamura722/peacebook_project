@@ -1,0 +1,132 @@
+{
+    "bestseller_products": [
+        {
+            "id": 1,
+            "name": "How to Be Better at Almost Everything",
+            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1526862858i/40184559.jpg",
+            "price": 9.99
+        },
+        {
+            "id": 2,
+            "name": "The Exchange: After The Firm",
+            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg",
+            "price": 14.99
+        },
+        {
+            "id": 3,
+            "name": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+            "image": "https://images-us.bookshop.org/ingram/9780735211292.jpg?height=500&v=v2-6f5ec5995cc02aae02f42dc75e235cd5",
+            "price": 50.11
+        },
+        {
+            "id": 4,
+            "name": "How to Know a Person: The Art of Seeing Others Deeply and Being Deeply Seen",
+            "image": "https://images-us.bookshop.org/ingram/9780593230060.jpg?height=500&v=v2-1423d9f1e9c3c514c7a1cf703f1a62db",
+            "price": 9.99
+        }
+    ],
+    "education_products": [
+        {
+            "id": 1,
+            "name": "Culturally Responsive Teaching and The Brain: Promoting Authentic Engagement and Rigor Among Culturally and Linguistically Diverse Students",
+            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1415581847i/23468051.jpg",
+            "price": 59.99
+        },
+        {
+            "id": 2,
+            "name": "Dear Citizen Math: How Math Class Can Inspire a More Rational and Respectful Society",
+            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1621909792i/58147405.jpg",
+            "price": 19.99
+        },
+        {
+            "id": 3,
+            "name": "Howard Zinn on Democratic Education",
+            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388183096i/55134.jpg",
+            "price": 89.99
+        },
+        {
+            "id": 4,
+            "name": "Sprouting Into Greatness: Principles of Personal Development That Will Empower You to Create Your Own Destiny",
+            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1513214124i/37510880.jpg",
+            "price": 39.99
+        }
+    ],
+    "advice_products": [
+        {
+            "id": 1,
+            "name": "How to Be Better at Almost Everything",
+            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1526862858i/40184559.jpg",
+            "price": 9.99
+        },
+        {
+            "id": 2,
+            "name": "Practicing the Way: Be with Jesus. Become like him. Do as he did",
+            "image": "https://images-us.bookshop.org/ingram/9780593193822.jpg?height=500&v=v2-445234b9b231ae89b6596260a15eb47a",
+            "price": 47.99
+        },
+        {
+            "id": 3,
+            "name": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+            "image": "https://images-us.bookshop.org/ingram/9780735211292.jpg?height=500&v=v2-6f5ec5995cc02aae02f42dc75e235cd5",
+            "price": 50.11
+        },
+        {
+            "id": 4,
+            "name": "How to Know a Person: The Art of Seeing Others Deeply and Being Deeply Seen",
+            "image": "https://images-us.bookshop.org/ingram/9780593230060.jpg?height=500&v=v2-1423d9f1e9c3c514c7a1cf703f1a62db",
+            "price": 9.99
+        }
+    ],
+    "business_products": [
+        {
+            "id": 1,
+            "name": "Zero to One: Notes on Startups, or How to Build the Future",
+            "image": "https://i.insider.com/6123bc86de5f560019e84afe?width=700&format=jpeg&auto=webp",
+            "price": 35.99
+        },
+        {
+            "id": 2,
+            "name": "The Lean Startup: How Todays Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
+            "image": "https://i.insider.com/629fbcb2c48fc3001abae8bb?width=700&format=jpeg&auto=webp",
+            "price": 37.99
+        },
+        {
+            "id": 3,
+            "name": "The 4-Hour Workweek",
+            "image": "https://i.insider.com/6123bd47de5f560019e84b42?width=700&format=jpeg&auto=webp",
+            "price": 29.99
+        },
+        {
+            "id": 4,
+            "name": "Start With Why: How Great Leaders Inspire Everyone to Take Action",
+            "image": "https://i.insider.com/6123c3824932030018457661?width=700&format=jpeg&auto=webp",
+            "price": 31.40
+        }
+    ],
+    "fiction_products": [
+        {
+            "id": 1,
+            "name": "The Curse of Penryth Hall",
+            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678750187i/65213227.jpg",
+            "price": 29.99
+        },
+        {
+            "id": 2,
+            "name": "The Exchange: After The Firm",
+            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg",
+            "price": 14.99
+        },
+        {
+            "id": 3,
+            "name": "The Vacation House",
+            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680590876i/124944200.jpg",
+            "price": 23.99
+        },
+        {
+            "id": 4,
+            "name": "Yours for the Taking",
+            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680211580i/65213204.jpg",
+            "price": 29.99
+        }
+    ]
+}
