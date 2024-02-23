@@ -41,7 +41,6 @@ function showSlides() {
 
 // Call the function to start the slideshow
 showSlides();
-/**********************************************************************/
 
 /*-------------------------------------------------------------------*/
 
@@ -94,6 +93,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
           // Update the shopping cart display or perform any other actions
           updateCartDisplay();
+
+          
         });
     });
   });
@@ -104,3 +105,14 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Cart updated:", cartProducts);
   }
 });
+
+var nextbtn = document.getElementById("nextbtn");
+var logincontent = document.getElementById("logincontent");
+var logininput = document.getElementById("logininput");
+
+nextbtn.onclick = function(){
+  logincontent.textContent = logininput.value;
+  nextbtn.textContent = "Sign in";
+  logininput.value = "";
+  logininput.placeholder = "Enter your password";
+};

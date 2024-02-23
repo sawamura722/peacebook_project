@@ -4,15 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PeaceBook</title>
-  <link rel="stylesheet" href="firstpage.css">
-  <link rel="stylesheet" href="contactuspage.css">
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
-
-
-
-  ">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
   <div class="topweb">
@@ -29,6 +24,7 @@
   </div>
   <!-------------------NAV BAR---------------->
   <header>
+    
     <div class="wrapper">
       <div class="bars" id="bars"><i class="fas fa-bars" onclick="showMenu()"></i></div>
       <a href="" class="logo"><img src="peacebook_logo.png"></a>
@@ -41,27 +37,33 @@
           <li><a href="#">Kind of Books</a></li>
           <div class="dropdown-content">
             <br>
-            <li><a href="firstpage.html#education">Education</a></li>
+            <li><a href="#education">Education</a></li>
             <br>
-            <li><a href="firstpage.html#advice">Advice</a></li>
+            <li><a href="#advice">Advice</a></li>
             <br>
-            <li><a href="firstpage.html#business">Business</a></li>
+            <li><a href="#business">Business</a></li>
             <br>
-            <li><a href="firstpage.html#fiction">Fiction</a></li>
+            <li><a href="#fiction">Fiction</a></li>
           </div>
         </ul>
         <li><a href="contactuspage.html">contact us</a></li>
       </ul>
       
-      <div class="search">
-        <i class="fas fa-search"></i>
+      
+      <div class="nav-left-con">
+        <div class="search">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="cart" onclick="cartopen()">
+          <a href="cartpage.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          <span class="quantityz" id="quantityz">0</span>
+        </div>
+        <div class="login">
+          <h4><a href="loginpage.html">Login</a></h4>
+        </div>
       </div>
-      <div class="cart">
-        <i class="fa-solid fa-cart-shopping"></i>
-      </div>
-    
-    </div>
-  </header>
+
+    </header>
   <!--------------------------------------------->
     <section class="contact">
         <div class="contact-content">

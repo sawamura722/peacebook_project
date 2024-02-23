@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PeaceBook</title>
-  <link rel="stylesheet" href="firstpage.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
@@ -52,26 +52,29 @@
         <div class="search">
           <i class="fas fa-search"></i>
         </div>
-        <div class="cart" onclick="cartopen()">
-          <i class="fa-solid fa-cart-shopping"><a href="cartpage.html"></a></i>
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
           <span class="quantityz" id="quantityz">0</span>
+        </div>
+        <div class="login">
+          <h4><a href="loginpage.html">Login</a></h4>
         </div>
       </div>
 
     </header>
     
-    <div class="list"></div>
+    <div class="cartTab">
+      <h1>Shopping Cart</h1>
+      <div class="listCart">
+          
       </div>
-  <div class="cartzone">
-      <h1>Cart</h1>
-      <ul class="listCart"></ul>
-      <div class="checkOut">
-        <div class="total">0</div>
-        <div class="closeShopping">Close</div>
+      <div class="btn">
+          <button class="close">CLOSE</button>
+          <button class="checkOut">Check Out</button>
       </div>
-    </div>
   </div>
-  </div>
+
+
   <div class="main-container">
     <div class="main-text"><h1>Most Convenient <br> Purchasing Book <br>Online</h1></div>
   </div>
@@ -276,7 +279,7 @@
     </div>
   </footer>
 <!-------------------------------------------------------------------------------->
-<div id="output"></div>
+
 
 
 
