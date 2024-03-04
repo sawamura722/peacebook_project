@@ -330,10 +330,11 @@ body.showCart .container{
     margin: 100px;
     font-size: 2em;
   }
-  .product h2 {
+  .product h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+
   }
   .product-container {
     position: relative;
@@ -344,6 +345,7 @@ body.showCart .container{
     margin-top: 20px;
     border: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
   }
   .list-product {
     height: 56vh;
@@ -412,7 +414,7 @@ body.showCart .container{
   .buy-button:hover {
     outline: 2px solid orange;
   }
-
+  
   /*---------------------------CONTACT-----------------------------*/
 
 .contact {
@@ -578,7 +580,7 @@ body.showCart .container{
   width: 80%;
   padding: 10px;
   margin-top: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   box-sizing: border-box;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -600,12 +602,51 @@ body.showCart .container{
 }
 
 .underlogin {
+  margin-top: 5px;
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .underlogin-left {
   display: flex;
+}
+.underlogin-right a {
+  color: #4285f4;
+  text-decoration: underline;
+}
+.underlogin-right:hover {
+  cursor: pointer;
+}
+/*-----------------------CART-----------------------*/
+.cartcon {
+  display: grid;
+  place-items: center;
+  margin: 50px;
+  
+}
+.carttable {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.carttable td {
+  padding: 10px 50px;
+  
+}
+.cartmain {
+  background-color: #e2e1e1;
+}
+.cartimg img {
+  width: 100px;
+  height: 150px;
+}
+.checkoutbtn {
+  color: #ffffff;
+  background-color: #1c1f25;
+  padding: 15px;
+  cursor: pointer;
 }
 /*----------------------FOOTER-----------------------------------------*/
 .footer-con {

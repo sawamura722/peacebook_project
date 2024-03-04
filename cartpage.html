@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PeaceBook</title>
-  <link rel="stylesheet" href="firstpage.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
@@ -47,16 +47,51 @@
         <li><a href="contactuspage.html">contact us</a></li>
       </ul>
       
-      <div class="search">
-        <i class="fas fa-search"></i>
+      <div class="nav-left-con">
+        <div class="search">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="cart">
+          <a href="cartpage.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          <span class="quantityz" id="quantityz">0</span>
+        </div>
+        <div class="login">
+          <h4><a href="loginpage.html">Login</a></h4>
+        </div>
       </div>
-      <div class="cart">
-        <i class="fa-solid fa-cart-shopping"></i>
-        <span class="quantityz" id="quantityz">0</span>
-      </div>
-    </div>
-  </header>
 
+  </header>
+  
+  <div class="cartcon">
+    <h2>Your Items</h2>
+    <table class="carttable"> 
+    <tr class="cartmain"><th>Product</th><th>Price</th><th>Quantity</th><th>Total</th></tr>
+    <tr><td><div class="cartimg"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1526862858i/40184559.jpg"></div>
+      <p>How to Be Better at Almost Everything</p></td>
+      <td><h5>9.99$</h5></td>
+      <td><h5>1</h5></td>
+      <td><h5>9.99$</h5></td>
+    </tr>
+    <tr><td><div class="cartimg"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1621909792i/58147405.jpg"></div>
+      <p>Dear Citizen Math: How Math Class Can Inspire a More Rational and Respectful Society</p></td>
+      <td><h5>19.99$</h5></td>
+      <td><h5>1</h5></td>
+      <td><h5>19.99$</h5></td>
+    </tr>
+    <tr><td><div class="cartimg"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg"></div>
+      <p>The Exchange: After The Firm</p></td>
+      <td><h5>14.99$</h5></td>
+      <td><h5>1</h5></td>
+      <td><h5>14.99$</h5></td>
+    </tr>
+    <tr>
+    <td>Total Cost 44.97$</td>
+    <td></td><td></td>
+    <td><button class="checkoutbtn">Check Out</button></td>
+    </tr>
+    </table>
+    
+  </div>
   <!-----------------------------FOOTER---------------------------------------->
   <footer class="footer">
     <div class="footer-con">

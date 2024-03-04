@@ -106,13 +106,37 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+
+
 var nextbtn = document.getElementById("nextbtn");
 var logincontent = document.getElementById("logincontent");
 var logininput = document.getElementById("logininput");
+var leftcontainer = document.querySelector(`.underlogin-left`);
+var rightcontent = document.getElementById("createAcc");
+var rightcontainer = document.querySelector(`.underlogin-right`);
 
 nextbtn.onclick = function(){
   logincontent.textContent = logininput.value;
   nextbtn.textContent = "Sign in";
   logininput.value = "";
   logininput.placeholder = "Enter your password";
-};
+
+  var forgetpass = document.createElement("a");
+  rightcontainer.appendChild(forgetpass);
+  rightcontent.textContent="";
+  forgetpass.textContent = "Forget Password?";
+  
+
+if(nextbtn.textContent=="Sign in"){
+var checkbox = document.createElement("input");
+checkbox.type = "checkbox";
+
+
+var paragraph = document.createElement("p");
+paragraph.textContent = "Stay signed in";
+
+
+leftcontainer.appendChild(checkbox);
+leftcontainer.appendChild(paragraph);
+
+}};
