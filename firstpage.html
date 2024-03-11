@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,12 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
   <div class="topweb">
-    <div class="animatedText"><p>50% OFF ONLY ON PEACEBOOK.COM!!</p></div>
+    <div class="animatedText">
+      <p>50% OFF ONLY ON PEACEBOOK.COM!!</p>
+    </div>
     <div class="wrapper">
 
       <div class="top-web-right">
@@ -22,15 +26,15 @@
   </div>
   <!-------------------NAV BAR---------------->
   <header>
-    
+
     <div class="wrapper">
       <div class="bars" id="bars"><i class="fas fa-bars" onclick="showMenu()"></i></div>
-      <a href="" class="logo"><img src="peacebook_logo.png"></a>
+      <a href="" class="logo"><img src="peacebooklogo.png"></a>
       <ul class="navbar" id="NavBar">
         <div class="times" id="times"><i class="fas fa-times" onclick="hideMenu()"></i></div>
         <div class="logo-991"><i class="fab fa-audible"></i>PeaceBook</div>
         <li><a href="firstpage.html">Home</a></li>
-        
+
         <ul class="dropdown">
           <li><a href="#">Kind of Books</a></li>
           <div class="dropdown-content">
@@ -46,8 +50,8 @@
         </ul>
         <li><a href="contactuspage.html">contact us</a></li>
       </ul>
-      
-      
+
+
       <div class="nav-left-con">
         <div class="search">
           <i class="fas fa-search"></i>
@@ -57,221 +61,422 @@
           <span class="quantityz" id="quantityz">0</span>
         </div>
         <div class="login">
-          <h4><a href="loginpage.html">Login</a></h4>
+          <h4><a href="loginpage.html">Login <i class="fa fa-sign-in" aria-hidden="true"></i></a></h4>
         </div>
       </div>
 
-    </header>
-    
+  </header>
+
   <div class="main-container">
-    <div class="main-text"><h2>Most Convenient <br> Purchasing Book <br>Online</h2></div>
+    <div class="main-text" id="aboutUs-warp">
+      <h2>Most Convenient <br> Purchasing Book <br>Online Store</h2>
+      <a href="#aboutUs"><button class="aboutUs-btn">About Us</button></a>
+    </div>
+  </div>
+  <!-------------------------------------ABOUT US-------------------------------------------->
+  <div class="aboutUs-con" id="aboutUs">
+    <div>
+      <img src="https://plus.unsplash.com/premium_photo-1663090220711-8c7104175221?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    </div>
+    <div class="aboutUs-text" id="aboutUs-text">
+      <h1>About Us</h1><br>
+      <h3 class="fl">Launching a <span class="seo-word">dropshipping online bookstore,</span></h3>
+      <h3>Our goal is to promote <span class="seo-word">reading</span> as a remedy for <span class="seo-word">depression.</span></h3>
+      <h3>With a focus on <span class="seo-word">educational genres</span> like <span class="seo-word">chemistry book</span> and <span class="seo-word">life lessons book,</span></h3>
+      <h3>Our business requires minimal funding but values <span class="seo-word">knowledge.</span></h3>
+      <h3>Browse our diverse collection to enhance your <span class="seo-word">intelligence</span> and <span class="seo-word">happiness.</span></h3>
+    </div>    
   </div>
   <!----------------------------PRODUCT---SECTION-------------------------------------------->
   <div class="product">
     <h3>Best sellers</h3>
-      <div class="product-container">
-        <div class="list-product">
-          <div class="product1">
-            <div class="product-img"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1526862858i/40184559.jpg"></div>
-            <div class="product-price"><h5 id="fullprice">19.99$</h5><h5>9.99$</h5><h5 id="discount">-50% OFF</h5></div>
-            <div class="product-text"><p>How to Be Better at Almost Everything</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-bestseller-product1" data-id="1" data-category="bestseller"><a href="">Add to Cart</a></button></div>
+    <div class="product-container">
+      <div class="list-product">
+        <div class="product1">
+          <div class="product-img"><img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1526862858i/40184559.jpg">
           </div>
-          <div class="product2">
-            <div class="product-img"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg"></div>
-            <div class="product-price"><h5 id="fullprice">29.99$</h5><h5>14.99$</h5><h5 id="discount">-50% OFF</h5></div>
-            <div class="product-text"><p>The Exchange: After The Firm</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-bestseller-product2" data-id="2" data-category="bestseller"><a href="">Add to Cart</a></button></div>
+          <div class="product-price">
+            <h5 id="fullprice">19.99$</h5>
+            <h5>9.99$</h5>
+            <h5 id="discount">-50% OFF</h5>
           </div>
-          <div class="product3">
-            <div class="product-img"><img src="https://images-us.bookshop.org/ingram/9780735211292.jpg?height=500&v=v2-6f5ec5995cc02aae02f42dc75e235cd5"></div>
-            <div class="product-price"><h5 id="fullprice">75.11$</h5><h5>50.11$</h5><h5 id="discount">-25% OFF</h5></div>
-            <div class="product-text"><p>Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-bestseller-product3" data-id="3" data-category="bestseller"><a href="#">Add to Cart</a></button></div>
+          <div class="product-text">
+            <p>How to Be Better at Almost Everything</p>
           </div>
-          <div class="product4">
-            <div class="product-img"><img src="https://images-us.bookshop.org/ingram/9780593230060.jpg?height=500&v=v2-1423d9f1e9c3c514c7a1cf703f1a62db"></div>
-            <div class="product-price"><h5 id="fullprice">20.00$</h5><h5>9.99$</h5><h5 id="discount">-50% OFF</h5></div>
-            <div class="product-text"><p>How to Know a Person: The Art of Seeing Others Deeply and Being Deeply Seen</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-bestseller-product4" data-id="4" data-category="bestseller"><a href="">Add to Cart</a></button></div>
-          </div>
+          <div class="btn"><button class="buy-button" id="buy-button-bestseller-product1" data-id="1"
+              data-category="bestseller"><a href="">Add to Cart</a></button></div>
         </div>
-      </div>
-  </div>
-  <div class="product" id="education">
-    <h3>Education</h3>
-      <div class="product-container">
-        <div class="list-product">
-          <div class="product1">
-            <div class="product-img"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1415581847i/23468051.jpg"></div>
-            <div class="product-price"><h5 id="fullprice">90.00$</h5><h5>59.99$</h5><h5 id="discount">-25% OFF</h5></div>
-            <div class="product-text"><p>Culturally Responsive Teaching and The Brain: Promoting Authentic Engagement and Rigor Among Culturally and Linguistically Diverse Students</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-education-product1" data-id="1" data-category="education"><a href="">Add to Cart</a></button></div>
+        <div class="product2">
+          <div class="product-img"><img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg">
           </div>
-          <div class="product2">
-            <div class="product-img"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1621909792i/58147405.jpg"></div>
-            <div class="product-price"><h5 id="fullprice">40.00$</h5><h5>19.99$</h5><h5 id="discount">-50% OFF</h5></div>
-            <div class="product-text"><p>Dear Citizen Math: How Math Class Can Inspire a More Rational and Respectful Society</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-education-product2" data-id="2" data-category="education"><a href="">Add to Cart</a></button></div>
+          <div class="product-price">
+            <h5 id="fullprice">29.99$</h5>
+            <h5>14.99$</h5>
+            <h5 id="discount">-50% OFF</h5>
           </div>
-          <div class="product3">
-            <div class="product-img"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388183096i/55134.jpg"></div>
-            <div class="product-price"><h5 id="fullprice">360.00$</h5><h5>89.99$</h5><h5 id="discount">-75% OFF</h5></div>
-            <div class="product-text"><p>Howard Zinn on Democratic Education</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-education-product3" data-id="3" data-category="education""><a href="">Add to Cart</a></button></div>
+          <div class="product-text">
+            <p>The Exchange: After The Firm</p>
           </div>
-          <div class="product4">
-            <div class="product-img"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1513214124i/37510880.jpg"></div>
-            <div class="product-price"><h5 id="fullprice">60.00$</h5><h5>39.99$</h5><h5 id="discount">-25% OFF</h5></div>
-            <div class="product-text"><p>Sprouting Into Greatness: Principles of Personal Development That Will Empower You to Create Your Own Destiny</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-education-product4" data-id="4" data-category="education"><a href="">Add to Cart</a></button></div>
-          </div>
+          <div class="btn"><button class="buy-button" id="buy-button-bestseller-product2" data-id="2"
+              data-category="bestseller"><a href="">Add to Cart</a></button></div>
         </div>
-      </div>
-      
-  </div>
-  <div class="product" id="advice">
-    <h3>Advice</h3>
-      <div class="product-container">
-        <div class="list-product">
-          <div class="product1">
-            <div class="product-img"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1526862858i/40184559.jpg"></div>
-            <div class="product-price"><h5 id="fullprice">19.99$</h5><h5>9.99$</h5><h5 id="discount">-50% OFF</h5></div>
-            <div class="product-text"><p>How to Be Better at Almost Everything</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-advice-product1" data-id="1" data-category="advice"><a href="">Add to Cart</a></button></div>
+        <div class="product3">
+          <div class="product-img"><img
+              src="https://images-us.bookshop.org/ingram/9780735211292.jpg?height=500&v=v2-6f5ec5995cc02aae02f42dc75e235cd5">
           </div>
-          <div class="product2">
-            <div class="product-img"><img src="https://images-us.bookshop.org/ingram/9780593193822.jpg?height=500&v=v2-445234b9b231ae89b6596260a15eb47a"></div>
-            <div class="product-price"><h5 id="fullprice">96.00$</h5><h5>47.99$</h5><h5 id="discount">-50% OFF</h5></div>
-            <div class="product-text"><p>Practicing the Way: Be with Jesus. Become like him. Do as he did</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-advice-product2" data-id="2" data-category="advice"><a href="">Add to Cart</a></button></div>
+          <div class="product-price">
+            <h5 id="fullprice">75.11$</h5>
+            <h5>50.11$</h5>
+            <h5 id="discount">-25% OFF</h5>
           </div>
-          <div class="product3">
-            <div class="product-img"><img src="https://images-us.bookshop.org/ingram/9780735211292.jpg?height=500&v=v2-6f5ec5995cc02aae02f42dc75e235cd5"></div>
-            <div class="product-price"><h5 id="fullprice">75.11$</h5><h5>50.11$</h5><h5 id="discount">-25% OFF</h5></div>
-            <div class="product-text"><p>Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-advice-product3" data-id="3" data-category="advice"><a href="">Add to Cart</a></button></div>
+          <div class="product-text">
+            <p>Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones</p>
           </div>
-          <div class="product4">
-            <div class="product-img"><img src="https://images-us.bookshop.org/ingram/9780593230060.jpg?height=500&v=v2-1423d9f1e9c3c514c7a1cf703f1a62db"></div>
-            <div class="product-price"><h5 id="fullprice">20.00$</h5><h5>9.99$</h5><h5 id="discount">-50% OFF</h5></div>
-            <div class="product-text"><p>How to Know a Person: The Art of Seeing Others Deeply and Being Deeply Seen</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-advice-product4" data-id="4" data-category="advice"><a href="">Add to Cart</a></button></div>
-          </div>
+          <div class="btn"><button class="buy-button" id="buy-button-bestseller-product3" data-id="3"
+              data-category="bestseller"><a href="#">Add to Cart</a></button></div>
         </div>
-      </div>
-  </div>
-  <div class="product" id="business">
-    <h3>Business</h3>
-      <div class="product-container">
-        <div class="list-product">
-          <div class="product1">
-            <div class="product-img"><img src="https://i.insider.com/6123bc86de5f560019e84afe?width=700&format=jpeg&auto=webp"></div>
-            <div class="product-price"><h5 id="fullprice">74.00$</h5><h5>35.99$</h5><h5 id="discount">-50% OFF</h5></div>
-            <div class="product-text"><p>Zero to One: Notes on Startups, or How to Build the Future</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-business-product1" data-id="1" data-category="business"><a href="">Add to Cart</a></button></div>
+        <div class="product4">
+          <div class="product-img"><img
+              src="https://images-us.bookshop.org/ingram/9780593230060.jpg?height=500&v=v2-1423d9f1e9c3c514c7a1cf703f1a62db">
           </div>
-          <div class="product2">
-            <div class="product-img"><img src="https://i.insider.com/629fbcb2c48fc3001abae8bb?width=700&format=jpeg&auto=webp"></div>
-            <div class="product-price"><h5 id="fullprice">57.00$</h5><h5>37.99$</h5><h5 id="discount">-25% OFF</h5></div>
-            <div class="product-text"><p>The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-business-product2" data-id="2" data-category="business"><a href="">Add to Cart</a></button></div>
+          <div class="product-price">
+            <h5 id="fullprice">20.00$</h5>
+            <h5>9.99$</h5>
+            <h5 id="discount">-50% OFF</h5>
           </div>
-          <div class="product3">
-            <div class="product-img"><img src="https://i.insider.com/6123bd47de5f560019e84b42?width=700&format=jpeg&auto=webp"></div>
-            <div class="product-price"><h5 id="fullprice">60.00$</h5><h5>29.99$</h5><h5 id="discount">-50% OFF</h5></div>
-            <div class="product-text"><p>The 4-Hour Workweek</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-business-product3" data-id="3" data-category="business"><a href="">Add to Cart</a></button></div>
+          <div class="product-text">
+            <p>How to Know a Person: The Art of Seeing Others Deeply and Being Deeply Seen</p>
           </div>
-          <div class="product4">
-            <div class="product-img"><img src="https://i.insider.com/6123c3824932030018457661?width=700&format=jpeg&auto=webp"></div>
-            <div class="product-price"><h5 id="fullprice">62.80$</h5><h5>31.40$</h5><h5 id="discount">-50% OFF</h5></div>
-            <div class="product-text"><p>Start With Why: How Great Leaders Inspire Everyone to Take Action</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-business-product4" data-id="4" data-category="business"><a href="">Add to Cart</a></button></div>
-          </div>
-        </div>
-      </div>
-  </div>
-  <div class="product" id="fiction">
-    <h3>Fiction</h3>
-      <div class="product-container">
-        <div class="list-product">
-          <div class="product1">
-            <div class="product-img"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678750187i/65213227.jpg"></div>
-            <div class="product-price"><h5 id="fullprice">44.99$</h5><h5>29.99$</h5><h5 id="discount">-25% OFF</h5></div>
-            <div class="product-text"><p>The Curse of Penryth Hall</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-fiction-product1" data-id="1" data-category="fiction"><a href="">Add to Cart</a></button></div>
-          </div>
-          <div class="product2">
-            <div class="product-img"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg"></div>
-            <div class="product-price"><h5 id="fullprice">29.99$</h5><h5>14.99$</h5><h5 id="discount">-50% OFF</h5></div>
-            <div class="product-text"><p>The Exchange: After The Firm</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-business-product2" data-id="2" data-category="fiction"><a href="">Add to Cart</a></button></div>
-          </div>
-          <div class="product3">
-            <div class="product-img"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680590876i/124944200.jpg"></div>
-            <div class="product-price"><h5 id="fullprice">47.99$</h5><h5>23.99$</h5><h5 id="discount">-50% OFF</h5></div>
-            <div class="product-text"><p>The Vacation House</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-business-product3" data-id="3" data-category="fiction"><a href="">Add to Cart</a></button></div>
-          </div>
-          <div class="product4">
-            <div class="product-img"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680211580i/65213204.jpg"></div>
-            <div class="product-price"><h5 id="fullprice">59.99$</h5><h5>29.99$</h5><h5 id="discount">-50% OFF</h5></div>
-            <div class="product-text"><p>Yours for the Taking</p></div>
-            <div class="btn"><button class="buy-button" id="buy-button-business-product4" data-id="4" data-category="fiction"><a href="">Add to Cart</a></button></div>
-          </div>
-        </div>
-      </div>
-  </div>
-<!-----------------------------FOOTER---------------------------------------->
-  <footer class="footer">
-    <div class="footer-con">
-      <div class="footer-row">
-        <div class="footer-col">
-          <h4>company</h4>
-          <ul>
-            <li><a href="">about us</a></li>
-            <li><a href="">our services</a></li>
-            <li><a href="">privacy policy</a></li>
-            <li><a href="">affiliate program</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>get help</h4>
-          <ul>
-            <li><a href="">FAQ</a></li>
-            <li><a href="">shipping</a></li>
-            <li><a href="">returns</a></li>
-            <li><a href="">order status</a></li>
-            <li><a href="">payment options</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>online shop</h4>
-          <ul>
-            <li><a href="">watch</a></li>
-            <li><a href="">bag</a></li>
-            <li><a href="">shoes</a></li>
-            <li><a href="">dress</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>follow us</h4>
-          <div class="social-link">
-            <a href=""><i class="fab fa-facebook"></i></a>
-            <a href=""><i class="fab fa-twitter"></i></a>
-            <a href=""><i class="fab fa-youtube"></i></a>
-            <a href=""><i class="fab fa-pinterest"></i></a>
-          </div>
+          <div class="btn"><button class="buy-button" id="buy-button-bestseller-product4" data-id="4"
+              data-category="bestseller"><a href="">Add to Cart</a></button></div>
         </div>
       </div>
     </div>
-  </footer>
-<!-------------------------------------------------------------------------------->
+    <div class="viewMore"><button><h3>View more</h3></button></div>
+  </div>
+  <div class="product" id="education">
+    <h3>Education</h3>
+    <div class="product-container">
+      <div class="list-product">
+        <div class="product1">
+          <div class="product-img"><img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1415581847i/23468051.jpg">
+          </div>
+          <div class="product-price">
+            <h5 id="fullprice">90.00$</h5>
+            <h5>59.99$</h5>
+            <h5 id="discount">-25% OFF</h5>
+          </div>
+          <div class="product-text">
+            <p>Culturally Responsive Teaching and The Brain: Promoting Authentic Engagement and Rigor Among Culturally
+              and Linguistically Diverse Students</p>
+          </div>
+          <div class="btn"><button class="buy-button" id="buy-button-education-product1" data-id="1"
+              data-category="education"><a href="">Add to Cart</a></button></div>
+        </div>
+        <div class="product2">
+          <div class="product-img"><img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1621909792i/58147405.jpg">
+          </div>
+          <div class="product-price">
+            <h5 id="fullprice">40.00$</h5>
+            <h5>19.99$</h5>
+            <h5 id="discount">-50% OFF</h5>
+          </div>
+          <div class="product-text">
+            <p>Dear Citizen Math: How Math Class Can Inspire a More Rational and Respectful Society</p>
+          </div>
+          <div class="btn"><button class="buy-button" id="buy-button-education-product2" data-id="2"
+              data-category="education"><a href="">Add to Cart</a></button></div>
+        </div>
+        <div class="product3">
+          <div class="product-img"><img
+              src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388183096i/55134.jpg">
+          </div>
+          <div class="product-price">
+            <h5 id="fullprice">360.00$</h5>
+            <h5>89.99$</h5>
+            <h5 id="discount">-75% OFF</h5>
+          </div>
+          <div class="product-text">
+            <p>Howard Zinn on Democratic Education</p>
+          </div>
+          <div class="btn"><button class="buy-button" id="buy-button-education-product3" data-id="3"
+              data-category="education""><a href="">Add to Cart</a></button></div>
+          </div>
+          <div class=" product4">
+              <div class="product-img"><img
+                  src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1513214124i/37510880.jpg">
+              </div>
+              <div class="product-price">
+                <h5 id="fullprice">60.00$</h5>
+                <h5>39.99$</h5>
+                <h5 id="discount">-25% OFF</h5>
+              </div>
+              <div class="product-text">
+                <p>Sprouting Into Greatness: Principles of Personal Development That Will Empower You to Create Your Own
+                  Destiny</p>
+              </div>
+              <div class="btn"><button class="buy-button" id="buy-button-education-product4" data-id="4"
+                  data-category="education"><a href="">Add to Cart</a></button></div>
+          </div>
+        </div>
+      </div>
+      <div class="viewMore"><button><h3>View more</h3></button></div>
+    </div>
+    <div class="product" id="advice">
+      <h3>Advice</h3>
+      <div class="product-container">
+        <div class="list-product">
+          <div class="product1">
+            <div class="product-img"><img
+                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1526862858i/40184559.jpg">
+            </div>
+            <div class="product-price">
+              <h5 id="fullprice">19.99$</h5>
+              <h5>9.99$</h5>
+              <h5 id="discount">-50% OFF</h5>
+            </div>
+            <div class="product-text">
+              <p>How to Be Better at Almost Everything</p>
+            </div>
+            <div class="btn"><button class="buy-button" id="buy-button-advice-product1" data-id="1"
+                data-category="advice"><a href="">Add to Cart</a></button></div>
+          </div>
+          <div class="product2">
+            <div class="product-img"><img
+                src="https://images-us.bookshop.org/ingram/9780593193822.jpg?height=500&v=v2-445234b9b231ae89b6596260a15eb47a">
+            </div>
+            <div class="product-price">
+              <h5 id="fullprice">96.00$</h5>
+              <h5>47.99$</h5>
+              <h5 id="discount">-50% OFF</h5>
+            </div>
+            <div class="product-text">
+              <p>Practicing the Way: Be with Jesus. Become like him. Do as he did</p>
+            </div>
+            <div class="btn"><button class="buy-button" id="buy-button-advice-product2" data-id="2"
+                data-category="advice"><a href="">Add to Cart</a></button></div>
+          </div>
+          <div class="product3">
+            <div class="product-img"><img
+                src="https://images-us.bookshop.org/ingram/9780735211292.jpg?height=500&v=v2-6f5ec5995cc02aae02f42dc75e235cd5">
+            </div>
+            <div class="product-price">
+              <h5 id="fullprice">75.11$</h5>
+              <h5>50.11$</h5>
+              <h5 id="discount">-25% OFF</h5>
+            </div>
+            <div class="product-text">
+              <p>Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones</p>
+            </div>
+            <div class="btn"><button class="buy-button" id="buy-button-advice-product3" data-id="3"
+                data-category="advice"><a href="">Add to Cart</a></button></div>
+          </div>
+          <div class="product4">
+            <div class="product-img"><img
+                src="https://images-us.bookshop.org/ingram/9780593230060.jpg?height=500&v=v2-1423d9f1e9c3c514c7a1cf703f1a62db">
+            </div>
+            <div class="product-price">
+              <h5 id="fullprice">20.00$</h5>
+              <h5>9.99$</h5>
+              <h5 id="discount">-50% OFF</h5>
+            </div>
+            <div class="product-text">
+              <p>How to Know a Person: The Art of Seeing Others Deeply and Being Deeply Seen</p>
+            </div>
+            <div class="btn"><button class="buy-button" id="buy-button-advice-product4" data-id="4"
+                data-category="advice"><a href="">Add to Cart</a></button></div>
+          </div>
+        </div>
+      </div>
+      <div class="viewMore"><button><h3>View more</h3></button></div>
+    </div>
+    <div class="product" id="business">
+      <h3>Business</h3>
+      <div class="product-container">
+        <div class="list-product">
+          <div class="product1">
+            <div class="product-img"><img
+                src="https://i.insider.com/6123bc86de5f560019e84afe?width=700&format=jpeg&auto=webp"></div>
+            <div class="product-price">
+              <h5 id="fullprice">74.00$</h5>
+              <h5>35.99$</h5>
+              <h5 id="discount">-50% OFF</h5>
+            </div>
+            <div class="product-text">
+              <p>Zero to One: Notes on Startups, or How to Build the Future</p>
+            </div>
+            <div class="btn"><button class="buy-button" id="buy-button-business-product1" data-id="1"
+                data-category="business"><a href="">Add to Cart</a></button></div>
+          </div>
+          <div class="product2">
+            <div class="product-img"><img
+                src="https://i.insider.com/629fbcb2c48fc3001abae8bb?width=700&format=jpeg&auto=webp"></div>
+            <div class="product-price">
+              <h5 id="fullprice">57.00$</h5>
+              <h5>37.99$</h5>
+              <h5 id="discount">-25% OFF</h5>
+            </div>
+            <div class="product-text">
+              <p>The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful
+                Businesses</p>
+            </div>
+            <div class="btn"><button class="buy-button" id="buy-button-business-product2" data-id="2"
+                data-category="business"><a href="">Add to Cart</a></button></div>
+          </div>
+          <div class="product3">
+            <div class="product-img"><img
+                src="https://i.insider.com/6123bd47de5f560019e84b42?width=700&format=jpeg&auto=webp"></div>
+            <div class="product-price">
+              <h5 id="fullprice">60.00$</h5>
+              <h5>29.99$</h5>
+              <h5 id="discount">-50% OFF</h5>
+            </div>
+            <div class="product-text">
+              <p>The 4-Hour Workweek</p>
+            </div>
+            <div class="btn"><button class="buy-button" id="buy-button-business-product3" data-id="3"
+                data-category="business"><a href="">Add to Cart</a></button></div>
+          </div>
+          <div class="product4">
+            <div class="product-img"><img
+                src="https://i.insider.com/6123c3824932030018457661?width=700&format=jpeg&auto=webp"></div>
+            <div class="product-price">
+              <h5 id="fullprice">62.80$</h5>
+              <h5>31.40$</h5>
+              <h5 id="discount">-50% OFF</h5>
+            </div>
+            <div class="product-text">
+              <p>Start With Why: How Great Leaders Inspire Everyone to Take Action</p>
+            </div>
+            <div class="btn"><button class="buy-button" id="buy-button-business-product4" data-id="4"
+                data-category="business"><a href="">Add to Cart</a></button></div>
+          </div>
+        </div>
+      </div>
+      <div class="viewMore"><button><h3>View more</h3></button></div>
+    </div>
+    <div class="product" id="fiction">
+      <h3>Fiction</h3>
+      <div class="product-container">
+        <div class="list-product">
+          <div class="product1">
+            <div class="product-img"><img
+                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678750187i/65213227.jpg">
+            </div>
+            <div class="product-price">
+              <h5 id="fullprice">44.99$</h5>
+              <h5>29.99$</h5>
+              <h5 id="discount">-25% OFF</h5>
+            </div>
+            <div class="product-text">
+              <p>The Curse of Penryth Hall</p>
+            </div>
+            <div class="btn"><button class="buy-button" id="buy-button-fiction-product1" data-id="1"
+                data-category="fiction"><a href="">Add to Cart</a></button></div>
+          </div>
+          <div class="product2">
+            <div class="product-img"><img
+                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg">
+            </div>
+            <div class="product-price">
+              <h5 id="fullprice">29.99$</h5>
+              <h5>14.99$</h5>
+              <h5 id="discount">-50% OFF</h5>
+            </div>
+            <div class="product-text">
+              <p>The Exchange: After The Firm</p>
+            </div>
+            <div class="btn"><button class="buy-button" id="buy-button-business-product2" data-id="2"
+                data-category="fiction"><a href="">Add to Cart</a></button></div>
+          </div>
+          <div class="product3">
+            <div class="product-img"><img
+                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680590876i/124944200.jpg">
+            </div>
+            <div class="product-price">
+              <h5 id="fullprice">47.99$</h5>
+              <h5>23.99$</h5>
+              <h5 id="discount">-50% OFF</h5>
+            </div>
+            <div class="product-text">
+              <p>The Vacation House</p>
+            </div>
+            <div class="btn"><button class="buy-button" id="buy-button-business-product3" data-id="3"
+                data-category="fiction"><a href="">Add to Cart</a></button></div>
+          </div>
+          <div class="product4">
+            <div class="product-img"><img
+                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680211580i/65213204.jpg">
+            </div>
+            <div class="product-price">
+              <h5 id="fullprice">59.99$</h5>
+              <h5>29.99$</h5>
+              <h5 id="discount">-50% OFF</h5>
+            </div>
+            <div class="product-text">
+              <p>Yours for the Taking</p>
+            </div>
+            <div class="btn"><button class="buy-button" id="buy-button-business-product4" data-id="4"
+                data-category="fiction"><a href="">Add to Cart</a></button></div>
+          </div>
+        </div>
+      </div>
+      <div class="viewMore"><button><h3>View more</h3></button></div>
+    </div>
+    <!-----------------------------FOOTER---------------------------------------->
+    <footer class="footer">
+      <div class="footer-con">
+        <div class="footer-row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="">about us</a></li>
+              <li><a href="">our services</a></li>
+              <li><a href="">privacy policy</a></li>
+              <li><a href="">affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">shipping</a></li>
+              <li><a href="">returns</a></li>
+              <li><a href="orderstatus.html">order status</a></li>
+              <li><a href="">payment options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>online shop</h4>
+            <ul>
+              <li><a href="">watch</a></li>
+              <li><a href="">bag</a></li>
+              <li><a href="">shoes</a></li>
+              <li><a href="">dress</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-link">
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-youtube"></i></a>
+              <a href=""><i class="fab fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-------------------------------------------------------------------------------->
 
 
 
 
-  <script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>

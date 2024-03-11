@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,12 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
   <div class="topweb">
-    <div class="animatedText"><p>50% OFF ONLY ON PEACEBOOK.COM!!</p></div>
+    <div class="animatedText">
+      <p>50% OFF ONLY ON PEACEBOOK.COM!!</p>
+    </div>
     <div class="wrapper">
 
       <div class="top-web-right">
@@ -22,7 +26,7 @@
   </div>
   <!-------------------NAV BAR---------------->
   <header>
-    
+
     <div class="wrapper">
       <div class="bars" id="bars"><i class="fas fa-bars" onclick="showMenu()"></i></div>
       <a href="" class="logo"><img src="peacebooklogo.png"></a>
@@ -30,7 +34,7 @@
         <div class="times" id="times"><i class="fas fa-times" onclick="hideMenu()"></i></div>
         <div class="logo-991"><i class="fab fa-audible"></i>PeaceBook</div>
         <li><a href="firstpage.html">Home</a></li>
-        
+
         <ul class="dropdown">
           <li><a href="#">Kind of Books</a></li>
           <div class="dropdown-content">
@@ -46,7 +50,7 @@
         </ul>
         <li><a href="contactuspage.html">contact us</a></li>
       </ul>
-      
+
       <div class="nav-left-con">
         <div class="search">
           <i class="fas fa-search"></i>
@@ -61,37 +65,85 @@
       </div>
 
   </header>
-  
-  <div class="cartcon">
-    <h2>Your Items</h2>
-    <table class="carttable"> 
-    <tr class="cartmain"><th>Product</th><th>Price</th><th>Quantity</th><th>Total</th></tr>
-    <tr><td><div class="cartimg"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1526862858i/40184559.jpg"></div>
-      <p>How to Be Better at Almost Everything</p></td>
-      <td><h5>9.99$</h5></td>
-      <td><h5>1</h5></td>
-      <td><h5>9.99$</h5></td>
-    </tr>
-    <tr><td><div class="cartimg"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1621909792i/58147405.jpg"></div>
-      <p>Dear Citizen Math: How Math Class Can Inspire a More Rational and Respectful Society</p></td>
-      <td><h5>19.99$</h5></td>
-      <td><h5>1</h5></td>
-      <td><h5>19.99$</h5></td>
-    </tr>
-    <tr><td><div class="cartimg"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg"></div>
-      <p>The Exchange: After The Firm</p></td>
-      <td><h5>14.99$</h5></td>
-      <td><h5>1</h5></td>
-      <td><h5>14.99$</h5></td>
-    </tr>
-    <tr>
-    <td>Total Cost 44.97$</td>
-    <td></td><td></td>
-    <td><button class="checkoutbtn">Check Out</button></td>
-    </tr>
-    </table>
-    
+  <!-----------------------------------CONTENT---------------------------------->
+  <div class="shipALL-con">
+  <div class="shippingStatus-con1">
+
+    <div class="shippingStatus-con2">
+
+      <div class="details">
+        <div class="orderName">
+          <h1>Order <span id="orderID">kjlhasdfi</span></h1>
+        </div>
+
+        <div class="date">
+          <p>Expected Arrival 16/3/2024</p>
+          <p>USPS <b>3546248462</b></p>
+        </div>
+      </div>
+
+      <div class="track">
+        <ul id="progress" class="progress">
+          <li class="active"></li>
+          <li class="active"></li>
+          <li class="active"></li>
+          <li class="active"></li>
+        </ul>
+      </div>
+
+      <div class="track-lists">
+        <div class="track-list">
+          <img src="package.png">
+          <p>Order <br> Processed</p>
+        </div>
+        <div class="track-list">
+          <img src="shipping-icon-png-0.jpg">
+          <p>Order <br> Shipped</p>
+        </div>
+        <div class="track-list">
+          <img src="rider.jpg">
+          <p>Order <br> Enrouted</p>
+        </div>
+        <div class="track-list">
+          <img src="home.jpg">
+          <p>Order <br> Arrived</p>
+        </div>
+      </div>
+
+    </div>
+<!--------------------UNDER TRACK------------------------------------->
+    <div class="shippingStatus-con3">
+
+      <div class="track">
+        <ul id="progress2" class="progress2">
+          <li class="active2"></li>
+          <li class="active2"></li>
+          <li class="active2"></li>
+          <li class="active2"></li>
+        </ul>
+      </div>
+
+      <div class="track-lists2">
+        <div class="track-list2">
+          <p class="same-line">15/3/2024</p><p>10:45 AM</p><p>Accepting deposits of items at the post office.</p>
+        </div>
+        <div class="track-list2">
+          <p class="same-line">15/3/2024</p><p>03:12 PM</p><p> Items are being sorted and processed at the parcel sorting center.</p>
+        </div>
+        <div class="track-list2">
+          <p class="same-line">16/3/2024</p><p>09:24 AM</p><p>Items are in the process of being delivered.</p>
+        </div>
+        <div class="track-list2">
+          <p class="same-line">16/3/2024</p><p>11:00 AM</p><p>Delivery successful</p>
+        </div>
+      </div>
+
+    </div>
+
   </div>
+  
+</div>
+  
   <!-----------------------------FOOTER---------------------------------------->
   <footer class="footer">
     <div class="footer-con">
@@ -111,7 +163,7 @@
             <li><a href="">FAQ</a></li>
             <li><a href="">shipping</a></li>
             <li><a href="">returns</a></li>
-            <li><a href="orderstatus.html">order status</a></li>
+            <li><a href="">order status</a></li>
             <li><a href="">payment options</a></li>
           </ul>
         </div>
@@ -136,10 +188,12 @@
       </div>
     </div>
   </footer>
-<!-------------------------------------------------------------------------------->
+  <!-------------------------------------------------------------------------------->
 
 
 
   <script src="index.js"></script>
+  <script src="orderJS.js"></script>
 </body>
+
 </html>

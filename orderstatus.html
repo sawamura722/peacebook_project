@@ -61,36 +61,14 @@
       </div>
 
   </header>
-  
-  <div class="cartcon">
-    <h2>Your Items</h2>
-    <table class="carttable"> 
-    <tr class="cartmain"><th>Product</th><th>Price</th><th>Quantity</th><th>Total</th></tr>
-    <tr><td><div class="cartimg"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1526862858i/40184559.jpg"></div>
-      <p>How to Be Better at Almost Everything</p></td>
-      <td><h5>9.99$</h5></td>
-      <td><h5>1</h5></td>
-      <td><h5>9.99$</h5></td>
-    </tr>
-    <tr><td><div class="cartimg"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1621909792i/58147405.jpg"></div>
-      <p>Dear Citizen Math: How Math Class Can Inspire a More Rational and Respectful Society</p></td>
-      <td><h5>19.99$</h5></td>
-      <td><h5>1</h5></td>
-      <td><h5>19.99$</h5></td>
-    </tr>
-    <tr><td><div class="cartimg"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680090791i/123285511.jpg"></div>
-      <p>The Exchange: After The Firm</p></td>
-      <td><h5>14.99$</h5></td>
-      <td><h5>1</h5></td>
-      <td><h5>14.99$</h5></td>
-    </tr>
-    <tr>
-    <td>Total Cost 44.97$</td>
-    <td></td><td></td>
-    <td><button class="checkoutbtn">Check Out</button></td>
-    </tr>
-    </table>
-    
+  <!-----------------------------------CONTENT---------------------------------->
+  <div class="enterOrder-con">
+        <h3>Enter your shipping package ID</h3>
+        <div>
+            <h3 id="ifOrderempty"></h3>
+            <input type="text" id="orderIDinput">
+            <button id="orderSubmit">Submit</button>
+        </div>
   </div>
   <!-----------------------------FOOTER---------------------------------------->
   <footer class="footer">
@@ -111,7 +89,7 @@
             <li><a href="">FAQ</a></li>
             <li><a href="">shipping</a></li>
             <li><a href="">returns</a></li>
-            <li><a href="orderstatus.html">order status</a></li>
+            <li><a href="">order status</a></li>
             <li><a href="">payment options</a></li>
           </ul>
         </div>
@@ -141,5 +119,6 @@
 
 
   <script src="index.js"></script>
+  <script src="orderJS.js"></script>
 </body>
 </html>

@@ -44,6 +44,7 @@ showSlides();
 
 /*-------------------------------------------------------------------*/
 
+
 document.addEventListener("DOMContentLoaded", function () {
   const cartquan = document.getElementById("quantityz");
   const cartbtns = document.querySelectorAll(".buy-button");
@@ -106,8 +107,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-
-
 var nextbtn = document.getElementById("nextbtn");
 var logincontent = document.getElementById("logincontent");
 var logininput = document.getElementById("logininput");
@@ -124,7 +123,7 @@ nextbtn.onclick = function(){
   var forgetpass = document.createElement("a");
   rightcontainer.appendChild(forgetpass);
   rightcontent.textContent="";
-  forgetpass.textContent = "Forget Password?";
+  forgetpass.textContent = "Forget password?";
   
 
 if(nextbtn.textContent=="Sign in"){
@@ -135,8 +134,7 @@ checkbox.type = "checkbox";
 var paragraph = document.createElement("p");
 paragraph.textContent = "Stay signed in";
 
-
 leftcontainer.appendChild(checkbox);
 leftcontainer.appendChild(paragraph);
-
 }};
+

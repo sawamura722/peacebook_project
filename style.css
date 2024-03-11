@@ -10,9 +10,10 @@
     text-decoration: none;
     font-family: sans-serif;
     transition: 0.5s;
+    scroll-behavior: smooth;
   }
   body {
-    background-color: #ebe9e9;
+    background-color: #fff;
   }
   
   .wrapper {
@@ -130,6 +131,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    
   }
   header .wrapper .logo {
     font-size: 25px;
@@ -138,6 +140,10 @@
   }
   header .wrapper .logo i {
     color: orangered;
+  }
+  header .wrapper .logo img {
+    width: 45px;
+    height: 60px;
   }
   
   header .wrapper .navbar {
@@ -199,6 +205,7 @@
       transition: 0.5s;
       box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
   }
+
   /*----------------------------------CART----------------------------------*/
   header .cart {
     position: absolute;
@@ -303,11 +310,45 @@ body.showCart .container{
 .listCart::-webkit-scrollbar{
   width: 0;
 }
-
+/*----------------------------ABOUT US-----------------------------------*/
+.aboutUs-con {
+  padding: 100px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.aboutUs-con img {
+  width: 700px;
+  height: 450px;
+  padding: 20px;
+}
+.aboutUs-btn {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #1c1f25;
+}
+.aboutUs-btn:hover {
+  cursor: pointer;
+  color: #1c1f25;
+  background-color: #fff;
+}
+.aboutUs-text h3 {
+  padding: 5px;
+}
+.aboutUs-text h1 {
+  display: grid;
+  place-items: center;
+}
+.fl {
+  margin-left: 50px;
+}
+.seo-word {
+  color: #00bcd4;
+}
 /*----------------------------------------------------------------*/
   .main-container {
     position: relative;
-    min-height: 100vh;
+    min-height: 90vh;
     padding: 50px 100px;
     display: flex;
     justify-content: center;
@@ -345,13 +386,14 @@ body.showCart .container{
     margin-top: 20px;
     border: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    background-color: #fff;
+    background-color: #ebe9e9;
   }
   .list-product {
     height: 56vh;
     display: flex;
     justify-content: space-between;
     position: absolute;
+    background-color: #fff;
   }
   .btn {
     bottom: 0;
@@ -386,7 +428,7 @@ body.showCart .container{
     width: 350px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     display: grid;
-    grid-row: 4;
+    grid-template-rows: repeat(5,1fr);
     padding: 10px;
   }
   .product-text {
@@ -411,10 +453,31 @@ body.showCart .container{
   .buy-button a {
     color: #FFF;
   }
-  .buy-button:hover {
-    outline: 2px solid orange;
-  }
   
+  .buy-button:hover {
+      cursor: pointer;
+      background-color: #fff;
+  }
+  .buy-button:hover a {
+    color: #24262b;
+  }
+  .viewMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+  .viewMore button{
+    padding: 15px 25px;
+    color: #fff;
+    background-color: #24262b;
+    transition: 2ms;
+  }
+  .viewMore button:hover {
+    cursor: pointer;
+    color: #24262b;
+    background-color: #fff;
+  }
   /*---------------------------CONTACT-----------------------------*/
 
 .contact {
@@ -448,7 +511,7 @@ body.showCart .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 150px;
 }
 .contact-info {
     width: 50%;
@@ -549,7 +612,10 @@ body.showCart .container{
   text-align: center;
   display: grid;
   height: 50vh;
-  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.login-con h2 {
+  padding: 15px 0;
 }
 .login-con2 {
   padding: 20px;
@@ -623,7 +689,9 @@ body.showCart .container{
   display: grid;
   place-items: center;
   margin: 50px;
-  
+}
+.cartcon h2 {
+  padding: 10px;
 }
 .carttable {
   display: flex;
@@ -646,8 +714,235 @@ body.showCart .container{
   color: #ffffff;
   background-color: #1c1f25;
   padding: 15px;
+}
+.checkoutbtn:hover {
+  cursor: pointer;
+  color: #1c1f25;
+  background-color: #ffffff;
+}
+/*----------------------------ORDER STATUS-------------------------------------*/
+.enterOrder-con {
+  display: grid;
+  place-items: center;
+  padding: 25px;
+  background-color: #fff;
+  margin: 50px 700px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.enterOrder-con h3 {
+  padding: 10px 20px;
+}
+.enterOrder-con button , input{
+  padding: 5px 20px;
+}
+.enterOrder-con button {
+  color: #fff;
+  background-color: #24262b;
+}
+.enterOrder-con button:hover {
   cursor: pointer;
 }
+.shippingStatus-con1 {
+  display: grid;
+  place-items: center;
+  margin: 20px 0;
+}
+.shippingStatus-con2 {
+  width: 1100px;
+  max-width: 100%;
+  padding: 40px;
+  margin: 0 30px;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.details {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.orderName h1 {
+  text-transform: uppercase;
+}
+.orderName span {
+  color: #00bcd4;
+}
+.date p {
+  font-size: 1.1rem;
+}
+.track {
+  margin: 4em 0 8em;
+  
+}
+#progress {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1em;
+  position: relative;
+  text-align: center;
+}
+#progress li {
+  width: 20%;
+  position: relative;
+}
+#progress li::before {
+  content: '\2713';
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  align-items: center;
+  font-size: 2rem;
+  height: 50px;
+  background: #00bcd4;
+  color: #fff;
+  border-radius: 50%;
+  z-index: 111;
+}
+#progress li:last-child::before {
+  content: '\2713';
+  font: bold;
+  background: #b8dade;
+}
+#progress::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  width: 55%;
+  margin-left: 35px;
+  height: 10px;
+  background: #00bcd4;
+  z-index: 111;
+}
+#progress::after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  width: 80%;
+  height: 10px;
+  background: #b8dade;
+}
+.track-lists {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.track-list {
+  display: flex;
+  gap: 1em;
+  flex: 1 1 50px;
+}
+.track-list img {
+  width: 50px;
+}
+.track-list p {
+  font-size: 1.1rem;
+}
+/*--------------------------UNDER TRACK------------------------------------*/
+.shippingStatus-con3 {
+  width: 1100px;
+  max-width: 100%;
+  padding: 40px 150px;
+  margin: 0 30px;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  display: flex;
+}
+#progress2 {
+  list-style: none;
+  display: flex;
+  flex-direction: column; /* Change to column */
+  align-items: center; /* Center items vertically */
+  gap: 1em;
+  position: relative;
+  text-align: center;
+}
+#progress2 li {
+  width: 100%; /* Make each item take full width */
+  position: relative;
+  margin-bottom: 7em; /* Add margin for spacing between items */
+}
+#progress2 li:last-child {
+  width: 100%; /* Make each item take full width */
+  position: relative;
+  margin-top: 7em;
+  margin-bottom: 0;
+}
+#progress2 li:nth-last-child(2){
+  margin: 0;
+}
+#progress2 li::before {
+  content: '\2713';
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  align-items: center;
+  font-size: 2rem;
+  height: 50px;
+  background: #00bcd4;
+  color: #fff;
+  border-radius: 50%;
+  z-index: 111;
+  left: 0; 
+  transform: translateX(-50%); /* Adjust to center */
+}
+#progress2 li:last-child::before {
+  content: '\2713';
+  font: bold;
+  background: #b8dade;
+}
+#progress2::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 0; 
+  transform: translateX(-50%); /* Adjust to center */
+  height: 80%; /* Change height to 80% */
+  width: 10px; /* Change width to 10px */
+  background: #00bcd4;
+  z-index: 111;
+}
+#progress2::after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 0; 
+  transform: translateX(-50%); /* Adjust to center */
+  height: 100%; /* Change height to 100% */
+  width: 10px; /* Change width to 10px */
+  background: #b8dade;
+}
+
+.track-lists2 {
+  gap: 2em;
+  position: absolute;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+  z-index: 111;
+  left: 25%; 
+  top: 120px;
+  transform: translateX(-70%); /* Adjust to center */
+}
+.track-list2 {
+  margin-bottom: 78px;
+  width: 50px;
+  height: 50px;
+
+}
+.track-list2 {
+  display: flex;
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+.track-list2 p {
+  padding-right: 10px;
+}
+
 /*----------------------FOOTER-----------------------------------------*/
 .footer-con {
   line-height: 1.5;
